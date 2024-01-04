@@ -50,3 +50,13 @@ root.render(heading)
 
 //Browserlist contains the info about the browser where our app should definitely run.It may or may not run on other browsers
 // but the one mentioned there it will definitely work ,check package.json for more info
+
+
+
+//Order of commands executed 
+// 1.npm init   --creates package.json 
+// 2.npm install -D parcel   --installing bundler--creates package-lock.json() and node_modules and installs dev dependencies
+// 3.if we delete node_modules they can be generated using npm install.
+// 4.igniting our app: npx parcel index.html   --created dist and .parcel-cache and also this is dev build
+// 5.Installing react and react-dom.npm install react and npm install react-dom
+// 6.dist contains the dev or production build and parcel-cache is used for  faster builds
